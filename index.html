@@ -22,6 +22,18 @@
     <meta property="twitter:card" content="summary">
     <meta property="twitter:site" content="@TwitterアカウントのID">
     <meta property="fb:app_id" content="取得したアプリID">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+    <script type="text/javascript">
+            $(document).ready(function(){
+                $('.slider').bxSlider({
+                    auto: true,
+                    pause: 5000,
+                });
+            });
+    </script>
   </head>
 
 
@@ -61,6 +73,7 @@
     </div>
 
     <div class="info" id="info">
+      <!-- <h2 class="info-title">新着情報</h2> -->
       <dl>
         <div>
           <dt>2021.08.01</dt>
@@ -74,6 +87,13 @@
           <dd><a href="#">星乃屋 表町店がオープンしました。</a></dd>
         </div>
       </dl>
+    </div>
+
+    <div class="slider">
+      <img src="images/tenpo/gaikan.JPG" width="500" height="300" alt="">
+      <img src="images/tenpo/gaikan2.JPG" width="500" height="300" alt="">
+      <img src="images/tenpo/gaikan3.JPG" width="500" height="300" alt="">
+      <img src="images/tenpo/noren.JPG" width="500" height="300" alt="">
     </div>
 
     <div class="main">
