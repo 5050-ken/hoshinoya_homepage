@@ -1,4 +1,10 @@
 @charset "utf-8";
+/* 
+.info-title{
+  margin-bottom: 15px;
+  text-align: center;
+} */
+
 dl div{
   border-bottom: solid 1px #f1f1f1;
   overflow: hidden;
