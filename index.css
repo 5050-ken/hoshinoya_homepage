@@ -54,6 +54,7 @@ li {
   align-items: center;
   height: 100vh;
   background: url('images/gaikann.JPG') top center / cover no-repeat;
+  color: #fff;
 }
 h2 {
   margin: 0;
