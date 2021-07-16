@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="岡山県岡山市にあるやきとり「星乃家 表町店」の公式ホームページです。メニューやアクセス情報などを発信しています。">
     <link rel="shortcut icon" href="images/logo.JPG">
+    <link rel="stylesheet" href="header.css">
     <link rel="stylesheet" href="common.css">
     <link rel="stylesheet" href="index.css">
     <link rel="stylesheet" href="info.css">
@@ -23,39 +24,50 @@
     <meta property="twitter:site" content="@TwitterアカウントのID">
     <meta property="fb:app_id" content="取得したアプリID">
 
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
-    <script type="text/javascript">
-            $(document).ready(function(){
-                $('.slider').bxSlider({
-                    auto: true,
-                    pause: 5000,
-                });
-            });
+    <!-- jQueryの読み込み -->
+    <script src="https://code.jquery.com/jquery-2.2.4.js" integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI=" crossorigin="anonymous"></script>
+
+    <!-- スマホナビの表示・非表示 -->
+    <script>
+    $(function() {
+      const hum = $('#hamburger, .close')
+      const nav = $('.sp-nav')
+      hum.on('click', function(){
+          nav.toggleClass('toggle');
+      });
+    });
     </script>
   </head>
 
 
   <body>
-    <div class="header">
-      <div class="container">
-        <div class="header-left">
-          <img class="header-logo" src="images/logo.JPG" alt="星乃家表町店">
-        </div>
-        <div class="header-left">
-          <img class="header-logo" src="images/title.JPG" alt="星乃家表町店">
-        </div>
-        <div class="header-right">
-          <a href="index.html">トップ</a>
-          <a href="#info">新着情報</a>
-          <a href="#menu_list">メニュー</a>
-          <a href="#access">アクセス</a>
-          <a href="#contact">お問い合わせ</a>
-        </div>
-        <div class="clear"></div>
+    <header>
+      <h1>
+          <a href="/">星乃屋 表町店</a>
+      </h1>
+      <nav class="pc-nav">
+          <ul>
+              <li><a href="index.html">トップ</a></li>
+              <li><a href="#info">新着情報</a></li>
+              <li><a href="#menu_list">メニュー</a></li>
+              <li><a href="#access">アクセス</a></li>
+              <li><a href="#contact">お問い合わせ</a></li>
+          </ul>
+      </nav>
+      <nav class="sp-nav">
+        <ul>
+            <li><a href="index.html">トップ</a></li>
+            <li><a href="#info">新着情報</a></li>
+            <li><a href="#menu_list">メニュー</a></li>
+            <li><a href="#access">アクセス</a></li>
+            <li><a href="#contact">お問い合わせ</a></li>
+            <li class="close"><span>閉じる</span></li>
+        </ul>
+      </nav>
+      <div id="hamburger">
+        <span></span>
       </div>
-    </div>
+    </header>
 
     <div class="main-visual">
       <div class="container">
