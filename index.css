@@ -100,6 +100,9 @@ h2 {
   .pc-nav {
     display: none;
   }
+  .top-text{
+    display: none;
+  }
   .sp-nav {
     z-index: 1;
     position: fixed;
