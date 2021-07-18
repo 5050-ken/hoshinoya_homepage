@@ -71,9 +71,7 @@ h2 {
   font-size: 24px;
   margin-bottom: 60px;
 }
-.top-text {
-  opacity: 0.9;
-}
+
 .main {
   padding: 80px 0;
   color: #5a5c5f;
@@ -98,9 +96,6 @@ h2 {
 
 @media screen and (max-width: 640px){
   .pc-nav {
-    display: none;
-  }
-  .top-text{
     display: none;
   }
   .sp-nav {
