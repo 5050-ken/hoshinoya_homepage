@@ -1,9 +1,16 @@
 @charset "utf-8";
 
 .menu_list {
-  padding: 80px 0;
+  /* padding: 80px 0; */
   color: #5a5c5f;
   text-align: center;
+
+  /* display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70vw;
+  background: url('images/tenpo/menu_kusi.png') top center / cover no-repeat;
+  color: #fff; */
 }
 .menu_list h2 {
   margin-bottom: 25px;
@@ -18,4 +25,13 @@
 
 .main-image {
   width: 70vw;
+}
+
+.menu-kusi {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vw;
+  background: url('images/tenpo/menu_kusi.png') top center / cover no-repeat;
+  color: #fff; 
 }
