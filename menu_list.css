@@ -27,11 +27,56 @@
   width: 70vw;
 }
 
+.menu-original {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 55vw;
+  background: url('images/menu/1_original.png') top center / cover no-repeat;
+  color: #fff; 
+}
+
 .menu-kusi {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 50vw;
-  background: url('images/tenpo/menu_kusi.png') top center / cover no-repeat;
+  height: 55vw;
+  background: url('images/menu/2_kusi.png') top center / cover no-repeat;
+  color: #fff; 
+}
+
+.menu-sunomono {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 55vw;
+  background: url('images/menu/3_sunomono.png') top center / cover no-repeat;
+  color: #fff; 
+}
+
+.menu-ippinn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 55vw;
+  background: url('images/menu/4_ippinn.png') top center / cover no-repeat;
+  color: #fff; 
+}
+
+.menu-agemono {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 55vw;
+  background: url('images/menu/5_agemono.png') top center / cover no-repeat;
+  color: #fff; 
+}
+
+.menu-drink {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 55vw;
+  background: url('images/menu/6_drink.png') top center / cover no-repeat;
   color: #fff; 
 }
