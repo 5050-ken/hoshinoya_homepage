@@ -37,6 +37,18 @@
       });
     });
     </script>
+
+    <!-- slider用 -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="slider/jquery.bxslider.js"></script>
+    <link href="slider/jquery.bxslider.css" rel="stylesheet" />
+    <script type="text/javascript">
+    jQuery(document).ready(function($){
+    $('.bxslider').bxSlider({
+    auto: true,
+    });
+    });
+    </script>
   </head>
 
 
@@ -150,6 +162,12 @@
       </div>
       <!-- <img class="main-image" src="images/tenpo/menu_kusi.png" alt="メニュー"> -->
     </div>    
+
+    <ul class="bxslider">
+      <li><img src="images/menu/1_original.png"></li>
+      <li><img src="images/menu/2_kusi.png"></li>
+      <li><img src="images/menu/3_sunomono.png"></li>
+    </ul>
 
     <div class="access" id="access">
       <div class="container">
