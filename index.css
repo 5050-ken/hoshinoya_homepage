@@ -25,6 +25,7 @@ header {
   background-color: #fff;
   display: flex;
   align-items: center;
+  z-index: 9999;
 }
 h1 {
   margin: 0; padding: 0;
@@ -116,7 +117,7 @@ h2 {
     display: none;
   }
   .sp-nav {
-    z-index: 1;
+    z-index: 9999;
     position: fixed;
     top: 0;
     left: 0;
